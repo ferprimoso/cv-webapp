@@ -1,8 +1,15 @@
-# React + Vite
+# Find Pet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Resume builder react web app
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://i.imgur.com/cgOhTxR.png" width="400" alt="project pic">
+</p>
+<h2 align="center">
+</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Preview
+
+[Live Preview](https://bucolic-duckanoo-09b383.netlify.app/) 
+
+
