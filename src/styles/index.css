@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  all: unset;
+}
+
 ul {
   list-style: none;
   padding: 0;

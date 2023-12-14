@@ -217,3 +217,30 @@ input:hover {
 .add-btn:hover {
   opacity: 80%;
 }
+
+
+/* github */
+.github-container {
+  width: 50%;
+  align-self: center;
+  background-color: #1B1B1B;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.github-container:hover {
+  transform: scale(1.1);
+}
+
+.github-container a {
+  display: flex;
+  justify-content: space-around;
+}
+
+.github-container a>div {
+  display: flex;
+  gap: 4px;
+}

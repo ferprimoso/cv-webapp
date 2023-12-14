@@ -5,6 +5,7 @@ import ResumeOutput from './components/ResumeOutput'
 import { useState } from 'react'
 import EducationCard from './components/Cards/EducationCard'
 import ExperienceCard from './components/Cards/ExperienceCard'
+import GitHub from './components/GitHub';
 
 
 
@@ -102,6 +103,9 @@ function App() {
           deleteExperience={deleteExperience}
           addExperience={addExperience}
         />
+
+        <GitHub />
+
 
       </div>
 
