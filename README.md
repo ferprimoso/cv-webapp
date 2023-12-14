@@ -1,4 +1,4 @@
-# Find Pet
+# Resume Builder
 
 A Resume builder react web app
 
