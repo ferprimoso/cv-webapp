@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  width: 100%;
+  margin: auto;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.side-container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.react-icons {
+  vertical-align: middle;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* card */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  color: #000000;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.card h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date-field {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.date-field input {
+  flex-grow: 1;
+  margin-bottom: 0;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  height: 0;
+  transform: translateY(-25px);
+  visibility: hidden;
+  transform-origin: top;
+}
+
+.open {
+  opacity: 100;
+  height: auto;
+  transform: translateY(0px);
+  visibility: visible;
+  transition: transform, opacity;
+  transition-duration: 0.5s;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 0.4rem;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  transition: .3s border-color;
+}
+
+input:hover {
+  border: 1px solid #aaa;
+
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 1rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  transform: rotate(0deg);
+  transition: .2s;
+}
+
+.icon-open {
+  transform: rotate(180deg);
+  transition: .2s;
+}
+
+
+/* resume container */
+
+.resume-container {
+  font-family: 'Roboto', serif;
+  height: 29.7cm;
+  width: 21cm;
+  background-color: white;
+  box-shadow: 2px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.resume-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1B263B;
+  color: white;
+  padding: 2rem;
+}
+
+.resume-info {
+  font-size: 1rem;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.resume-info>div {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.resume-body {
+  padding: 2rem;
+}
+
+.education-section {
+  margin-bottom: 2rem;
+}
+
+
+.section-header {
+  padding: 0.5rem;
+  background-color: #e6efff;
+  color: #1B263B;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.education-block {
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.education-date {
+  width: 8rem;
+}
+
+
+
+
+
+/* btn edit */
+
+.add-btn {
+  margin-top: 1rem;
+  align-self: center;
+  width: 40%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-weight: bold;
+  gap: 0.5rem;
+}
+
+.add-btn:hover {
+  opacity: 80%;
+}
